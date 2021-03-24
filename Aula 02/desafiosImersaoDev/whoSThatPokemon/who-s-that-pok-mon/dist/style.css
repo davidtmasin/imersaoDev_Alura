@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('https://images3.alphacoders.com/677/thumb-1920-677583.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+
+  .container > img {
+    background-color: #DAA520;
+    padding-left: 5px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+   }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .pokemon {
+    width: 315px;
+    height:330px;
+    background-image: url('http://4.bp.blogspot.com/--oaw1uAlt0g/UHWx-ONfmsI/AAAAAAAAIOo/ilVZ0wuz75g/s1600/Pidgey.gif');
+    background-position: center top;
+    background-repeat: no-repeat;
+/*     background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-calc.png'); */
+    margin: 0 auto;
+    position: relative;
+    border: 5px solid steelblue;
+  }
+  
+  h2 {
+    position: absolute;
+    font-size:16px;
+    font-weight:bold;
+    top: 122px;
+    left: calc(53% - 72.5px);    
+    width: 145px;
+    text-align:center;
+    background-color: white;
+/*     border: 2px solid steelblue;  */
+  }
+
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
