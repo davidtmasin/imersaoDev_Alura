@@ -8,8 +8,10 @@ var escolhaOperacao = parseInt(prompt('Escolha uma opção: 1 - É o pombo do ce
 
 if(escolhaOperacao == 4){
   document.write("<h2>Acertô mizeravi!</h2>")
-}else{
+}else if(escolhaOperacao != 4 &&  escolhaOperacao < 4 && escolhaOperacao != 0){
   document.write("<h2>Errrôôô!!</h2>")
+}else{
+  document.write("<h2> Opção Inválida </h2>")
 }
 
 
