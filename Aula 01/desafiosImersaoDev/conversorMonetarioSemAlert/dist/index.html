@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor Monetário Sem Alert</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title>
+      Conversor Monetário U$->R$
+    </title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de moedas
+      </h1>
+      <p class="page-subtitle">
+        Descubra quanto custaria aquele produto em dólar para o real, caso não existesse os impostos abusivos aqui no Brasil
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="#imersaoDEV #Alura">
+			
+			<div class="container-form">
+				
+				<form method="get" action="#">
+					<label class="lb-nome" for="dolar">Produto em U$:</label>
+					<input type="text" name="dolar" placeholder="Informe o valor do produto" id="dolar">
+				</form>
+
+				<form mmethod="post" action="#">
+					<label class="lb-nome" for="real">Produto em R$:</label>
+					<input disabled type="text" name="dolar" placeholder="Resultado" id="resultado">
+				</form>
+
+				<form method="get" action="#">
+					<input type="button" id="btnCalcular" name="resultado" value="Calcular" onclick="calculoConversao();">
+					<input type="button" id="btnLimpar" name="limpar" value="Limpar" onclick="limparValores();">
+				</form>
+				
+			</div>
+			
+    </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
