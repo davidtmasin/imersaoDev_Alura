@@ -5,6 +5,7 @@ var paulo = {
   empates: 5,
   derrotas: 1,
   pontos: 0
+}
 
 var rafa = {
   nome: "Rafa",
