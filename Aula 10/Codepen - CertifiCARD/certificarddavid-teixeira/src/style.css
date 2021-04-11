@@ -1,0 +1,200 @@
+body{
+  background-color: #87CEEB;
+  font-family: 'Open Sans';
+}
+
+section{
+  box-shadow: 15px 18px 27px -11px rgba(0,0,0,0.61);
+  -webkit-box-shadow: 15px 18px 27px -11px rgba(0,0,0,0.61);
+  -moz-box-shadow: 15px 18px 27px -11px rgba(0,0,0,0.61);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-top: 100px;
+  background-color: #FFFFFF;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+section h1{
+  text-align: center;
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+}
+section p{
+  text-align: center;
+  font-size: 15px;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+section h1 a{
+  text-decoration: none;
+  color: inherit;
+  transition: 1s;
+}
+
+section h1 a:hover {
+    background: #53a7ea; 
+    font-size: 30px;
+    color: white;
+    transition: 1s; 
+}
+
+#descricao p{
+  font-size: 17px;
+  text-align: center;
+}
+
+
+header{
+  background-image: url('https://cdn.pixabay.com/photo/2019/10/08/14/24/futuristic-4535174_960_720.jpg');
+  background-size: cover;
+  height: 130px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+#foto{
+  width: 180px;  
+  height: 180px;
+  border: 10px solid white;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-90px) ;
+}
+#compartilhar{
+  font-size: 15px;
+}
+
+.title{
+  margin-bottom: 20px;
+}
+
+.link-icon{
+  text-decoration: none;
+}
+
+
+
+.insignias{  
+  box-shadow: 15px 18px 27px -11px rgba(0,0,0,0.61);
+  -webkit-box-shadow: 15px 18px 27px -11px rgba(0,0,0,0.61);
+  -moz-box-shadow: 15px 18px 27px -11px rgba(0,0,0,0.61);
+  background-color: #000000;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+
+.insignias h2{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.insignias ol li a{
+  text-decoration: none;
+  color: inherit;
+  transition: 1s;
+}
+
+.insignias ol li a:hover{
+  font-size: 20px;
+  transition: 1s;
+}
+
+section ol li{
+  margin: 0 0 15px 0;
+  font-size: 15px;
+  padding-bottom: 3px;
+}
+
+.subitem li{
+  padding-top: 10px;
+  list-style: square;
+}
+
+
+.footer{
+ padding: 20px 0 15px 0;
+}
+
+.footer p{
+  font-size: 17px;  
+  text-align: justify;
+}
+
+.footer p a{
+  text-decoration: none;
+  color: inherit;
+  transition: 1s;
+}
+
+.footer p a:hover{
+  font-size: 20px;
+  transition: 1s;
+}
+
+.midias-sociais{
+  border-top: 2px solid black;
+}
+
+.midias-sociais ul{
+  list-style: none;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.midias-sociais ul li{
+  padding-right: 40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.midias-sociais ul li a img{
+  width: 35px;
+  transition: .5s;
+}
+
+.midias-sociais ul li a:hover img{
+  transform: scale(1.2) translateY(-10px);
+}
+
+
+@media only screen and (min-width: 530px){
+  section h1{
+    font-size: 2rem;
+  }
+  
+  section p{
+    font-size: 1.3rem;
+  }
+  
+  .insignias h2{
+  font-size: 2rem;
+  }
+  
+  .insignias ol li {
+    font-size: 19px;
+  }
+  .insignias ol li a:hover {
+    font-size: 25px;
+  }
+  section h1 a:hover {
+    font-size: 35px;
+    transition: .6s;
+  }
+  
+  
+}
+
